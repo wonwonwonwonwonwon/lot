@@ -1,0 +1,56 @@
+/* styles.css */
+html, body {
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    height: 100%;
+}
+
+.full-screen {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.full-screen img {
+    max-width: 100%;
+    max-height: 100%;
+    /* object-fit: contain; Keeps aspect ratio and fits within container */
+}
+
+/* .thumbnail-container {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+} */
+
+/* .thumbnail-container img {
+    width: 100px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+} */
+
+/* .thumbnail-container img:hover {
+    opacity: 0.7;
+} */
+
+#dark{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    height:30px;
+    background-color:black;
+    color: white;
+    border: 0;
+    border-radius: 30px;
+    padding:8px;
+
+
+}
